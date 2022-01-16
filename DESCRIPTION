@@ -1,0 +1,32 @@
+Package: CRDscore
+Title: An R package for calculation of circadian rhythm disruption score (CRDscore)
+Version: 0.1.0
+Authors@R: 
+    person(given = "Lei",
+           family = "He",
+           role = c("aut", "cre"),
+           email = "leihe@hust.edu.cn",
+           comment = c(ORCID = "0000-0002-4078-2081"))
+    person(given = "Yixian",
+           family = "Fan",
+           role = c("cre"),
+           email = "yixanfan@hust.edu.cn")     
+Maintainer: Yixian Fan <yixianfan@hust.edu.cn>
+Description: We incorporated CRD evaluation algorithm into an open-source R package, named CRDscore, 
+             to predict the disruption state of circadian rhythm from single cell or bulk transcriptomic data.
+             More about what it does, please see repository for details (https://github.com/yixian-fan/CRDscore). 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+LazyData: true
+Depends: 
+    R (>= 3.6)
+Imports: 
+    magrittr,
+    dplyr,
+    arules,
+    plyr
+Suggests: 
+    rmarkdown,
+    testthat
