@@ -6,8 +6,6 @@ a pivotal role in metabolic reprogramming and T cell exhaustion.
 The goal of CRDscore is to provide a novel computational framework for characterizing CRD status 
 using single-cell or bulk transcriptome data. 
 
-![CRDscore logo](./man/CRDscore_graphic_abstract.png)
-
 ### 2. Installation
 ```{r}
 if (!require("devtools")) 
