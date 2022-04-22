@@ -5,6 +5,7 @@ Circadian rhythm disruption (CRD) represents a major contributor to tumor progre
 a pivotal role in metabolic reprogramming and T cell exhaustion. 
 The goal of CRDscore is to provide a novel computational framework for characterizing CRD status 
 using single-cell or bulk transcriptome data. 
+![CRDscore logo](./man/CRDscore_graphic_abstract.png)
 
 ### 2. Installation
 ```{r}
@@ -37,3 +38,5 @@ names(CRDscore) %>%
   geom_boxplot()
  
 ```
+###  4.Citation
+If you use CRDscore in published research, please cite: He L, Fan Y, Zhang Y, et al. Single-Cell Transcriptomic Analysis Reveals Circadian Rhythm Disruption Associated with Poor Prognosis and Drug-Resistance in Lung Adenocarcinoma. J Pineal Res 2022;e12803. DOI: 10.1111/jpi.12803. PMID: 35436363
